@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+#book-header {
+  display: flex;
+  justify-content: center;
+  opacity: 0.8;
+  height: 7rem;
+  padding: 1rem;
+}
+
+#book-header img {
+  height: 8.5rem;
+  width: auto;
+}
+
+#time {
+  margin: 2rem;
+}
+
+.card {
+  text-align: center;
+  padding: 1rem;
+  width: 15rem;
+  height: 25rem;
+  display: inline;
+  margin: 1rem 2rem;
+}
+
+.book-image {
+  justify-self: center;
+  height: 14rem;
+  width: auto;
+  margin-top: 1rem;
+}
+
+/* .button {
+  position: absolute;
+  margin-top: 27em;
+  margin-left: 15.5em;
+  background-color: #58367c;
+  border: none;
+  border-radius: 5px;
+  height: 1.75rem;
+  width: 1.75rem;
+  color: whitesmoke;
+  font-size: 14px;
+  justify-self: center;
+}
+
+.button:hover {
+  background-color: whitesmoke;
+  border: #58367c solid 2px;
+  color: #58367c;
+} */
+
+.container {
+  padding: 1rem;
+  width: stretch;
+  height: auto;
+  display: none;
+  background: #8f94ef;
+  opacity: 0.8;
+  display: block;
+}
+
+.submit {
+  position: relative;
+  background-color: #58367c;
+  border-radius: 5px;
+  height: 2rem;
+  width: max-content;
+  color: whitesmoke;
+  font-size: 18px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  margin: 3px;
+}
+
+.submit:hover {
+  background-color: whitesmoke;
+  border: #58367c solid 2px;
+  color: #58367c;
+}
+
+.input-text {
+  border-radius: 5px;
+  border: #58367c solid 2px;
+  height: 2rem;
+  width: 100%;
+  font-size: 18px;
+  font-family: "Lucida Console", Monaco, monospace;
+  margin: 3px;
+}
